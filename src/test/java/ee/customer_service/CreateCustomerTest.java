@@ -20,11 +20,11 @@ public class CreateCustomerTest {
 
         given()
                 .header("Content-Type","application/json")
-                .and()
+        .and()
                 .body(requestParams.toJSONString())
-                .when()
+        .when()
                 .post("/create")
-                .then()
+        .then()
                     .statusCode(200)
                     .log().all();
     }
@@ -34,19 +34,20 @@ public class CreateCustomerTest {
         RestAssured.baseURI = "http://localhost:8080/customer";
 
         JSONObject requestParams = new JSONObject();
-       // requestParams.put("firstName", "Jason1");
+        // requestParams.put("firstName", "Jason1");
         //requestParams.put("lastName", "Agile2");
         requestParams.put("email", "jason@sim3ple.eu");
         requestParams.put("marketingConsent", "true");
 
         given()
                 .header("Content-Type","application/json")
-                .and()
+        .and()
                 .body(requestParams.toJSONString())
-                .when()
+        .when()
                 .post("/create")
-                .then()
-                .statusCode(400) //should respond with Bad request, undocumented
+        .then()
+                //should respond with Bad request, undocumented
+                .statusCode(400)
                 .log().all();
     }
 

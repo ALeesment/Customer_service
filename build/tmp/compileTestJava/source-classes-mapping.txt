@@ -1,6 +1,6 @@
 ee/customer_service/SetMarketingConsentToCustomerTest.java
  ee.customer_service.SetMarketingConsentToCustomerTest
-ee/customer_service/RequestCustomerByCustomerIdTest.java
- ee.customer_service.RequestCustomerByCustomerIdTest
 ee/customer_service/CreateCustomerTest.java
  ee.customer_service.CreateCustomerTest
+ee/customer_service/RequestCustomerByCustomerIdTest.java
+ ee.customer_service.RequestCustomerByCustomerIdTest
