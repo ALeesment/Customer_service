@@ -16,11 +16,6 @@ dependencies {
     testCompile group: 'io.rest-assured', name: 'rest-assured', version: '4.3.2'
     //JSON simple for json objects
     compile group: 'com.googlecode.json-simple', name: 'json-simple', version: '1.1.1'
-    //Hamcrest for matchers
-    testCompile group: 'org.hamcrest', name: 'hamcrest', version: '2.2'
-
-
-
 }
 
 test {

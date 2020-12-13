@@ -1,12 +1,12 @@
 ## Introduction
-Tests a
+Java Gradle project with TestNG, Rest Assured and Json Simple libraries.
 ## Problems
 - "marketingConsent" is saved always false for new users.
 - Can't change "marketingConsent" for new users.
 - Migrated users are not converted to Uppercase(data in db should be in same format).
 - Can set marketingConsent to customer/customerIDs that don't exist.
 - Add new customer data doesn't validate request body - Acceptance criteria.
-- There seems to be excess and undocumented info in API doc - 400 is undocumented, 
+- There seems to be excess and undocumented info in API doc - i.e. 400 is undocumented, 
 401 Unauthorized - requests are not behind authorization.
 
 ## Notes
