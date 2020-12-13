@@ -9,12 +9,12 @@ Tests a
 - There seems to be excess and undocumented info in API doc - 400 is undocumented, 
 401 Unauthorized - requests are not behind authorization.
 
-##Notes
+## Notes
 Depending on what purpose is customer info saved, it is reasonable to set a unique field for customer data,
 so duplicate data is not saved. At the moment there's not enough info about this and randomly generated info
   is not needed for testing.
   
-##Assignment 3
+## Assignment 3
 Customer service is not release ready, because of some major issues.
 A main problem is that marketingConsent is not changed and/or saved correctly.
 Also, "Create a new customer" service input data is not validated and new customer 
